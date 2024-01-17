@@ -10,7 +10,7 @@ function Whether({whether}) {
     <div>
         <h1>Whether App</h1>
         <p>
-            + Tempreture : <span style={{color: aboveThrehold ? "red":"blue"}}>{temperature}</span>
+       <span style={{color: aboveThrehold ? "red":"blue"}}>Temperature: {temperature}</span>
         </p>
         <p>Conditions: {conditions}</p>
     </div>
